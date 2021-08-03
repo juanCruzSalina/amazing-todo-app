@@ -1,0 +1,28 @@
+@import '../../../styles/base';
+
+.progressbar__container {
+  width: 80%;
+  position: relative;
+  border-radius: 15px;
+  padding: 0.75rem;
+  border: 3px solid $black;
+  background-color: $gray30;
+  display: grid;
+  place-items: center;
+  color: $black;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  .progressbar {
+    position: absolute;
+    border: 5px solid rgba($color: $gray30, $alpha: 1);
+    border-radius: 15px;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $gray50;
+    transition: all ease 0.2s;
+  }
+  h3 {
+    z-index: 1;
+  }
+}

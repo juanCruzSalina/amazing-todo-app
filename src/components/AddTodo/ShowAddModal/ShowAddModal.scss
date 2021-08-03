@@ -1,0 +1,21 @@
+@import '../../../styles/base';
+
+.add__todo {
+  height: 10%;
+  width: 100%;
+  background-color: $black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  .add__button {
+    padding: 0.125rem 0.75rem;
+    background: none;
+    color: $white;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    border: $gray10 2px solid;
+    border-radius: 50%;
+  }
+}
